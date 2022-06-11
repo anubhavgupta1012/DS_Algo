@@ -2,7 +2,7 @@ package com.ds.sorting;
 
 public class HeapSort {
     public static void main(String[] P) {
-        int A[] = {12, 11, 13, 5, 6, 7};
+        int A[] = {12, 100, 29, 11, 13, 5, 6, 7};
         heapSort(A);
         for (int i : A)
             System.out.print(i + "\t");
