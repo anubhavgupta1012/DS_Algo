@@ -1,11 +1,12 @@
 package com.ds;
 
-import java.util.Objects;
+import java.util.Arrays;
+import java.util.List;
 
 public class test {
     public static void main(String[] args) {
-        Integer i = 0;
-        System.out.println(i != null && !Objects.equals(i, 0));
-        System.out.println(i != null && i != 0);
+        List<Integer> integers = Arrays.asList(1, 2, 3);
     }
 }
+
+

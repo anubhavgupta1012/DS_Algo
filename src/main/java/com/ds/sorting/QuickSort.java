@@ -39,4 +39,28 @@ public class QuickSort {
         A[i] = A[j];
         A[j] = temp;
     }
+
+
+    private static void quickSort2(int[] A, int init, int n) {
+        if (init < n) {
+            int j = getJ(A, init, n);
+            quickSort2(A, init, j - 1);
+            quickSort2(A, j + 1, n);
+        }
+    }
+
+    private static int getJ(int[] A, int init, int n) {
+        int j = init - 1;                               // swap counter will be 1 less than the left of subArray Each time
+        int pivot = A[n];
+        for (int i = init; i <= n; i++) {               // inner loops will start from the starting index of subArray
+            int i1 = A[i];
+            if (i1 <= pivot) {
+                j++;
+                int temp = A[j];
+                A[j] = A[i];
+                A[i] = temp;
+            }
+        }
+        return j;
+    }
 }
