@@ -9,7 +9,7 @@ public class QuickSort {
             System.out.print(i + "\t");
     }
 
-    private static void quickSort(int[] A, int left, int right) {
+    public static void quickSort(int[] A, int left, int right) {
         if (left >= right)
             return;
 
