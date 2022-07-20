@@ -1,4 +1,4 @@
-package com.ds;
+package com.ds.arrays.questions;
 
 public class MinNumberJumps {
 
