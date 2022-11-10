@@ -1,7 +1,6 @@
 package com.ds.coreJava;
 
 public class Test {
-    public static int str;
 
     public static void main(String[] args) {
         check(5);
