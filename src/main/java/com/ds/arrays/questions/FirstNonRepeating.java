@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class FirstNonRepeating {
     public static void main(String[] args) {
-        int A[] ={1,1,1};
+        int A[] = {1, 1, 1};
 
         System.out.println(findFirstNonRepeating(A));
     }

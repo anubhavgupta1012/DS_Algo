@@ -30,7 +30,7 @@ class JoinTest {
         InputThread ip = new InputThread("Input thread");
         try {
             System.out.println("Main is going to join The thread");
-           // ip.join();
+            // ip.join();
             Thread.sleep(5000);
         } catch (InterruptedException e) {
             e.printStackTrace();

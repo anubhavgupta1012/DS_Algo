@@ -3,7 +3,7 @@ package com.ds.arrays.questions;
 class Print0s1s2s {
     public static void main(String[] args) {
         int[] A = {0, 2, 1, 2, 0};
-        sort012(A,A.length  );
+        sort012(A, A.length);
     }
 
     public static void sort012(int A[], int n) {

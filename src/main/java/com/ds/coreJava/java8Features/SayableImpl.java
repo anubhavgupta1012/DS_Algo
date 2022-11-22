@@ -1,11 +1,5 @@
 package com.ds.coreJava.java8Features;
 
-import java.net.URI;
-import java.net.URISyntaxException;
-import java.net.http.HttpClient;
-import java.net.http.HttpRequest;
-import java.net.http.HttpResponse;
-
 public class SayableImpl extends ClassTest implements Sayable2, Sayable {
     public static void saySomething() {
         System.out.println("Hello, this is static method.");
@@ -21,14 +15,9 @@ public class SayableImpl extends ClassTest implements Sayable2, Sayable {
         System.out.println(Sayable2.say3());
         System.out.println(Sayable2.say4());
         System.out.println(Sayable2.say5());
-        
+
 
     }
-
-    public void say() {
-        System.out.println(" classImpl say");
-    }
-
 
     static String say3() {
         return "say33333";
@@ -40,6 +29,10 @@ public class SayableImpl extends ClassTest implements Sayable2, Sayable {
 
     static String say5() {
         return "say55555";
+    }
+
+    public void say() {
+        System.out.println(" classImpl say");
     }
 }
 

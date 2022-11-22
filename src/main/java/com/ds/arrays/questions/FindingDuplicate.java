@@ -1,6 +1,9 @@
 package com.ds.arrays.questions;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
 
 public class FindingDuplicate {
     public static void main(String[] args) {

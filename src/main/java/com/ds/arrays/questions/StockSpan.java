@@ -2,7 +2,7 @@ package com.ds.arrays.questions;
 
 public class StockSpan {
     public static void main(String[] args) {
-        int A[] = {10,4,5,90,120,80};
+        int A[] = {10, 4, 5, 90, 120, 80};
 
         int[] stockSpan = findStockSpan(A);
         for (int a : stockSpan) {

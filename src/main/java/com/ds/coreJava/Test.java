@@ -5,6 +5,7 @@ public class Test {
     public static void main(String[] args) {
         check(5);
     }
+
     public static void check(int x) {
         System.out.println("in check");
         if (x == 5)

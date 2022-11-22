@@ -24,7 +24,7 @@ class MyThread extends Thread {
 
 class ExcepThreadTest {
     public static void main(String S[]) {
-        
+
         new MyThread(4, 2);
         new MyThread(4, 0);
 

@@ -6,7 +6,7 @@ import java.util.Map;
 public class SubArrayWithEqual0sAnd1s {
     public static void main(String[] args) {
 
-        int A[] ={1,0,0,1,0,1,1};
+        int A[] = {1, 0, 0, 1, 0, 1, 1};
 
         System.out.println(countSubArrayWithEqual0sAnd1s(A));
     }

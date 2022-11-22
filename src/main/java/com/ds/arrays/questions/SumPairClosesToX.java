@@ -2,7 +2,7 @@ package com.ds.arrays.questions;
 
 public class SumPairClosesToX {
     public static void main(String[] args) {
-        int A[] = {7,34,37,45,62,65,69,74,97};
+        int A[] = {7, 34, 37, 45, 62, 65, 69, 74, 97};
         int X = 74;
 
         int[] sumPairClosesToX = findSumPairClosesToX(A, X);

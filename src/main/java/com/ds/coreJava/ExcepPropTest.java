@@ -20,9 +20,9 @@ class ExcepPropTest {
             int c;
             c = a / b;
             return (c);
-        } catch (ArithmeticException e){
+        } catch (ArithmeticException e) {
             System.out.println(e);
-        }finally {
+        } finally {
             System.out.println("finally in calc");
         }
         return 0;

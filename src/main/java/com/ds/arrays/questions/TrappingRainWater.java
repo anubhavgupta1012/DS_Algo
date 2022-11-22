@@ -3,7 +3,7 @@ package com.ds.arrays.questions;
 public class TrappingRainWater {
 
     public static void main(String[] args) {
-        int A[] = {3,0,0,2,0,4};
+        int A[] = {3, 0, 0, 2, 0, 4};
         //int A[] = {3, 0, 1, 0, 0, 2, 0, 4, 0, 2};
         //int A[] = {1, 1, 5, 2, 7, 6, 1, 4, 2, 3};
 
@@ -30,7 +30,7 @@ public class TrappingRainWater {
         }
 
         int jj = maxR.length - 1;
-        for (int j = n-1; j >=1; j--) {
+        for (int j = n - 1; j >= 1; j--) {
             if (maxRight < A[j])
                 maxRight = A[j];
 

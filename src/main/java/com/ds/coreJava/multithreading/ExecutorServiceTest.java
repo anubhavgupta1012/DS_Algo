@@ -10,14 +10,14 @@ public class ExecutorServiceTest {
         new ExecutorServiceTest().extracted();
     }
 
+    public static void send(String str) {
+        System.out.println(str);
+    }
+
     private void extracted() {
         ExecutorService executorService = Executors.newFixedThreadPool(5);
         List<String> list = Arrays.asList("1", "2", "3", "4", "5");
         list.stream().forEach(i -> executorService.execute(() -> send(i)));
-    }
-
-    public static void send(String str) {
-        System.out.println(str);
     }
 }
 
