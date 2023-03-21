@@ -10,13 +10,12 @@ public class QuickSort {
     }
 
     public static void quickSort(int[] A, int left, int right) {
-        if (left >= right)
-            return;
-
-        int pivot = right;
-        int i = getPartition(A, left, pivot);
-        quickSort(A, left, i - 1);
-        quickSort(A, i + 1, right);
+        if (left < right) {
+            int pivot = right;
+            int i = getPartition(A, left, pivot);
+            quickSort(A, left, i - 1);
+            quickSort(A, i + 1, right);
+        }
     }
 
     private static int getPartition(int[] A, int left, int pivot) {
@@ -41,7 +40,7 @@ public class QuickSort {
     }
 
 
-    private static void quickSort2(int[] A, int init, int n) {
+/*    private static void quickSort2(int[] A, int init, int n) {
         if (init < n) {
             int j = getJ(A, init, n);
             quickSort2(A, init, j - 1);
@@ -62,5 +61,5 @@ public class QuickSort {
             }
         }
         return j;
-    }
+    }*/
 }
