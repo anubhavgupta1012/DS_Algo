@@ -23,8 +23,7 @@ public class QuickSort {
         int j = left;
 
         while (j <= pivot) {
-            int main = A[pivot];
-            if (A[j] <= main) {
+            if (A[j] <= A[pivot]) {
                 i++;
                 swap(A, i, j);
             }
