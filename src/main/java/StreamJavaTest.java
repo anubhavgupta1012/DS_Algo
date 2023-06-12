@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -39,12 +40,12 @@ public class StreamJavaTest {
         Person f = new Person(5, "ML");
         Person g = new Person(5, "MQ");
 
-/*        List<Person> people = Arrays.asList(a, e, d, b, c);
+        List<Person> people = Arrays.asList(a, e, d, b, c);
         Map<String, Integer> collect2 = people.stream().collect(Collectors.toMap(person -> person.getName(), p -> p.getId()));
         System.out.println(collect2);
         List<Person> personSortedById = people.stream().sorted(Comparator.comparing(Person::getId)).collect(Collectors.toList());
         System.out.println("personSortedById");
-        System.out.println(personSortedById);*/
+        System.out.println(personSortedById);
 
 
         //Grouping
