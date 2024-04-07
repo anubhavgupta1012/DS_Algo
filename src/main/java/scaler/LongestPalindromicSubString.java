@@ -1,3 +1,4 @@
+/*
 package scaler;
 
 class LongestPalindromicSubString{
@@ -21,4 +22,4 @@ class LongestPalindromicSubString{
 			return Math.max(findLPS(str,i+1,j),findLPS(str,i,j-1));
 		}
 	}
-}
+}*/
