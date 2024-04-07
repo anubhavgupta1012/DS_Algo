@@ -19,10 +19,6 @@ public class User {
         private String address;
 
 
-        static UserBuilder getInstance() {
-            return new UserBuilder();
-        }
-
         public UserBuilder setId(int id) {
             this.id = id;
             return this;
@@ -49,7 +45,8 @@ class BPT {
         User.UserBuilder instance = new User.UserBuilder();
         User.UserBuilder builder = instance.setAddress("skms")
                 .setName("").setId(1);
-        User skms = instance.build(builder);
+        User user = instance.build(builder);
+        System.out.println(user);
 
     }
 }
