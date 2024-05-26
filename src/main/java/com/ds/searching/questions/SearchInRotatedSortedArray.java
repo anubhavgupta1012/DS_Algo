@@ -4,7 +4,7 @@ public class SearchInRotatedSortedArray {
     //find the index for target when array is rotated sorted
     public static void main(String[] args) {
         int A[] = new int[]{4, 5, 6, 7, 8, 9, 10, 0, 1, 2, 3};
-        int target = 10;
+        int target = 0;
         System.out.println(searchInRotatedArray(A, target));
     }
 
